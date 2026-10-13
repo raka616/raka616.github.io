@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Raka Prasetya | Portofolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #0b071a;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+        }
+        .text-purple-accent {
+            color: #a855f7;
+        }
+        .bg-purple-accent {
+            background-color: #a855f7;
+        }
+        .border-purple-accent {
+            border-color: #a855f7;
+        }
+        .card-bg {
+            background-color: #130d2b;
+            border: 1px solid #24194c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-[#0b071a]/80 backdrop-blur-md border-b border-[#24194c]">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-white">Raka<span class="text-purple-accent">Prasetya</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#home" class="hover:text-purple-accent transition">Home</a>
+                <a href="#about" class="hover:text-purple-accent transition">About</a>
+                <a href="#skills" class="hover:text-purple-accent transition">Skills</a>
+                <a href="#projects" class="hover:text-purple-accent transition">Projects</a>
+                <a href="#hobbies" class="hover:text-purple-accent transition">Hobbies</a>
+                <a href="#contact" class="hover:text-purple-accent transition">Contact</a>
+            </div>
+            <a href="https://github.com/raka616" target="_blank" class="text-xl hover:text-purple-accent transition"><i class="fab fa-github"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-24 px-6 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="flex flex-col justify-center space-y-6">
+            <h4 class="text-lg font-semibold text-purple-accent tracking-wide">Hello, I'm</h4>
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">Muhammad <br><span class="text-purple-accent">Raka Prasetya</span></h1>
+            <p class="text-lg text-gray-400 font-medium">Web Developer & Tech Enthusiast</p>
+            <p class="text-gray-400 leading-relaxed">
+                Saya adalah siswa SMK Negeri 64 Jakarta jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan besar di bidang pengembangan web, teknologi, seni, olahraga, dan bela diri.
+            </p>
+            <div class="flex space-x-4">
+                <a href="#projects" class="bg-purple-accent text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-600 transition shadow-lg shadow-purple-500/20"><i class="fas fa-code mr-2"></i> Lihat Proyek</a>
+                <a href="#contact" class="border border-purple-accent text-purple-accent px-6 py-3 rounded-lg font-medium hover:bg-purple-900/20 transition"><i class="fas fa-envelope mr-2"></i> Hubungi Saya</a>
+            </div>
+            <div class="flex space-x-6 text-xl text-gray-400 pt-4">
+                <a href="https://github.com/raka616" target="_blank" class="hover:text-purple-accent transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-purple-accent transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-purple-accent transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-purple-accent transition"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="hidden md:flex items-center justify-center relative">
+            <div class="absolute w-72 h-72 bg-purple-600/20 rounded-full blur-3xl"></div>
+            <!-- Placeholder for Character Image / Graphic Illustration -->
+            <div class="w-80 h-96 card-bg rounded-2xl flex items-center justify-center border border-purple-500/30 overflow-hidden relative group">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b071a] via-transparent to-transparent opacity-60"></div>
+                <i class="fas fa-user-astronaut text-6xl text-purple-accent/40 group-hover:scale-110 transition duration-500"></i>
+                <div class="absolute bottom-6 right-6 left-6 text-right">
+                    <p class="text-xs italic text-gray-400">"Proses hari ini, adalah hasil esok nanti."</p>
+                    <p class="text-xs text-purple-accent font-semibold mt-1">— Raka</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya Section -->
+    <section id="about" class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-white border-l-4 border-purple-accent pl-4">Tentang Saya</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-6 text-gray-300 leading-relaxed">
+                <p>
+                    Hai! Saya Muhammad Raka Prasetya, saat ini bersekolah di SMK Negeri 64 Jakarta jurusan Rekayasa Perangkat Lunak (RPL). Saya memiliki ketertarikan besar di bidang pengembangan web, khususnya menggunakan Laravel, PHP, dan teknologi web lainnya.
+                </p>
+                <p>
+                    Selain itu, saya juga aktif dalam dunia olahraga, bela diri, serta seni. Saya percaya bahwa disiplin dalam belajar, berlatih, dan mengembangkan diri adalah kunci untuk mencapai tujuan.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                    <div class="card-bg p-4 rounded-xl flex items-center space-x-4">
+                        <div class="p-3 bg-purple-900/40 rounded-lg text-purple-accent text-xl"><i class="fas fa-school"></i></div>
+                        <div>
+                            <p class="text-xs text-gray-400">Sekolah</p>
+                            <p class="text-sm font-semibold text-white">SMK Negeri 64 Jakarta</p>
+                            <p class="text-xs text-gray-400">Rekayasa Perangkat Lunak (RPL)</p>
+                        </div>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex items-center space-x-4">
+                        <div class="p-3 bg-purple-900/40 rounded-lg text-purple-accent text-xl"><i class="fas fa-calendar-alt"></i></div>
+                        <div>
+                            <p class="text-xs text-gray-400">Usia</p>
+                            <p class="text-sm font-semibold text-white">18 Tahun</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <div class="card-bg p-6 rounded-xl space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-id-badge mt-1 text-purple-accent"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">Nama</p>
+                            <p class="text-sm font-medium text-white">Muhammad Raka Prasetya</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-graduation-cap mt-1 text-purple-accent"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">Keahlian Utama</p>
+                            <p class="text-sm font-medium text-white">Laravel, PHP, HTML, CSS, JavaScript, MySQL</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fab fa-github mt-1 text-purple-accent"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">GitHub</p>
+                            <p class="text-sm font-medium text-white">github.com/raka616</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-bullseye mt-1 text-purple-accent"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">Fokus</p>
+                            <p class="text-sm font-medium text-white">Web Development & IT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-bg p-6 rounded-xl border border-purple-500/20 relative overflow-hidden flex items-center justify-center min-h-[120px]">
+                    <div class="absolute -top-10 -right-10 w-24 h-24 bg-purple-600/10 rounded-full blur-xl"></div>
+                    <div class="text-center">
+                        <p class="text-sm italic text-gray-400">"Bukan tentang siapa yang paling cepat, tapi tentang siapa yang tidak berhenti."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian Section -->
+    <section id="skills" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div class="lg:col-span-2">
+                <h2 class="text-3xl font-bold mb-8 text-white border-l-4 border-purple-accent pl-4">Keahlian</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-laravel text-4xl text-red-500"></i>
+                        <span class="text-sm font-medium">Laravel</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-php text-4xl text-blue-400"></i>
+                        <span class="text-sm font-medium">PHP</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-html5 text-4xl text-orange-500"></i>
+                        <span class="text-sm font-medium">HTML</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-css3-alt text-4xl text-blue-500"></i>
+                        <span class="text-sm font-medium">CSS</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-js-square text-4xl text-yellow-500"></i>
+                        <span class="text-sm font-medium">JavaScript</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fas fa-database text-4xl text-sky-400"></i>
+                        <span class="text-sm font-medium">MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-8 text-white border-l-4 border-purple-accent pl-4">Tools & Lainnya</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fas fa-code text-3xl text-blue-500"></i>
+                        <span class="text-sm font-medium">VS Code</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-git-alt text-3xl text-orange-600"></i>
+                        <span class="text-sm font-medium">Git</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fab fa-figma text-3xl text-purple-400"></i>
+                        <span class="text-sm font-medium">Figma</span>
+                    </div>
+                    <div class="card-bg p-4 rounded-xl flex flex-col items-center justify-center text-center space-y-2 hover:border-purple-500/50 transition">
+                        <i class="fas fa-rocket text-3xl text-orange-500"></i>
+                        <span class="text-sm font-medium">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek Saya Section -->
+    <section id="projects" class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-white border-l-4 border-purple-accent pl-4">Proyek Saya</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div class="card-bg rounded-xl overflow-hidden hover:border-purple-500/50 transition flex flex-col justify-between">
+                <div class="p-6 space-y-4">
+                    <div class="w-full h-40 bg-purple-950/30 rounded-lg flex items-center justify-center border border-purple-900/40">
+                        <i class="fas fa-newspaper text-4xl text-purple-accent/60"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Portal Berita</h3>
+                    <p class="text-xs text-purple-accent">Laravel + MySQL</p>
+                    <p class="text-sm text-gray-400 leading-relaxed">Website portal berita dengan fitur CRUD dan sistem admin.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="#" class="text-sm text-purple-accent font-medium hover:underline flex items-center">Lihat Proyek <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="card-bg rounded-xl overflow-hidden hover:border-purple-500/50 transition flex flex-col justify-between">
+                <div class="p-6 space-y-4">
+                    <div class="w-full h-40 bg-purple-950/30 rounded-lg flex items-center justify-center border border-purple-900/40">
+                        <i class="fas fa-shopping-cart text-4xl text-purple-accent/60"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">E-Commerce</h3>
+                    <p class="text-xs text-purple-accent">Laravel + MySQL</p>
+                    <p class="text-sm text-gray-400 leading-relaxed">Website e-commerce dengan fitur authentication dan CRUD.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="#" class="text-sm text-purple-accent font-medium hover:underline flex items-center">Lihat Proyek <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="card-bg rounded-xl overflow-hidden hover:border-purple-500/50 transition flex flex-col justify-between">
+                <div class="p-6 space-y-4">
+                    <div class="w-full h-40 bg-purple-950/30 rounded-lg flex items-center justify-center border border-purple-900/40">
+                        <i class="fas fa-globe text-4xl text-purple-accent/60"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Profile Website</h3>
+                    <p class="text-xs text-purple-accent">HTML, CSS, JS</p>
+                    <p class="text-sm text-gray-400 leading-relaxed">Website profil responsif dengan desain modern dan dark theme.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="#" class="text-sm text-purple-accent font-medium hover:underline flex items-center">Lihat Proyek <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobi & Aktivitas Section -->
+    <section id="hobbies" class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-white border-l-4 border-purple-accent pl-4">Hobi & Aktivitas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="card-bg p-6 rounded-xl flex items-start space-x-4">
+                <div class="p-4 bg-purple-900/40 rounded-xl text-purple-accent text-2xl"><i class="fas fa-dumbbell"></i></div>
+                <div>
+                    <h3 class="font-bold text-white mb-1">Workout / Fitness</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Menjaga kesehatan, melatih fisik, dan membangun disiplin.</p>
+                </div>
+            </div>
+            <div class="card-bg p-6 rounded-xl flex items-start space-x-4">
+                <div class="p-4 bg-purple-900/40 rounded-xl text-purple-accent text-2xl"><i class="fas fa-user-ninja"></i></div>
+                <div>
+                    <h3 class="font-bold text-white mb-1">Taekwondo</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Melatih fokus, mental, ketahanan, dan rasa percaya diri.</p>
+                </div>
+            </div>
+            <div class="card-bg p-6 rounded-xl flex items-start space-x-4">
+                <div class="p-4 bg-purple-900/40 rounded-xl text-purple-accent text-2xl"><i class="fas fa-palette"></i></div>
+                <div>
+                    <h3 class="font-bold text-white mb-1">Menggambar</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Menyalurkan kreativitas dan mengekspresikan ide serta imajinasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="bg-[#070412] border-t border-[#24194c] py-12 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
+            <div>
+                <a href="#" class="text-xl font-bold tracking-wider text-white">Raka<span class="text-purple-accent">Prasetya</span></a>
+                <p class="text-xs text-gray-400 mt-2">Web Developer & Tech Enthusiast</p>
+            </div>
+            <div class="text-sm text-gray-400 italic">
+                "Terus belajar, terus berkembang, menuju versi terbaik diri sendiri."
+            </div>
+            <div class="flex flex-col space-y-2 md:items-end items-center text-sm text-gray-300">
+                <p class="font-semibold text-white">Contact Me</p>
+                <a href="mailto:raka.prasetya@email.com" class="hover:text-purple-accent flex items-center space-x-2"><i class="fas fa-envelope text-xs text-purple-accent"></i> <span>raka.prasetya@email.com</span></a>
+                <a href="https://github.com/raka616" target="_blank" class="hover:text-purple-accent flex items-center space-x-2"><i class="fab fa-github text-xs text-purple-accent"></i> <span>github.com/raka616</span></a>
+                <a href="#" class="hover:text-purple-accent flex items-center space-x-2"><i class="fab fa-instagram text-xs text-purple-accent"></i> <span>@raka616</span></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
